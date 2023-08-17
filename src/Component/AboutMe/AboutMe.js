@@ -18,7 +18,7 @@ const AboutMe = () => {
         })
     }
     return (
-        <div className="pt-28 pl-5 ">
+        <div className="pt-28 px-5 mb-5 ">
             <p className="text-green-500 font-Ubuntu  mb-6 md:text-2xl lg:text-3xl">Hello Welcome !</p>
             <div className="lg:pl-40 ">
             
@@ -46,6 +46,11 @@ const AboutMe = () => {
                     hardware used to solve problems in a variety of business, scientific and social
                     contexts.
                 </p>
+                <div className="mx-auto w-[300px] mt-6 md:w-[400px] lg:ml-20  ">
+                    <a href="https://www.w3schools.com/" target="_blank" rel="noreferrer">
+                        <img className="object-cover" src={require("../../img/cs1.jpg")} alt="Computer Science"></img>
+                    </a>
+                </div>
                <div className="mt-5 mb-5 font-Exo font-bold  items-center gap-2 border-[2px] border-yellow-400 inline-block px-3 py-2 rounded-xl hover:bg-blue-400 ease-in-out duration-500 ">
                     
                     <a href="https://t.me/MenglimChea" target="_blank" rel="noreferrer" > <BsTelegram size={20} className="float-left mr-2 mt-[2px]  "/> <span className="text-red-500">Let's Talk</span> </a>
